@@ -14,7 +14,6 @@ const CommentSection = (props) => {
       {commentObj.map((comment) => {
         return <Comment comment={comment} />;
       })}
-
       <CommentInput />
     </div>
   );
